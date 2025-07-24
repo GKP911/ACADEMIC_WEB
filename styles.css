@@ -14,8 +14,8 @@ body {
     height: 100px;
     width: 100%;
     padding: 10px;
-    /*background-color: #800000; Maroon background */
-    color: #FFFFFF; /* White text */
+    background-color: transparent;
+    color: #000000; /* White text */
     border-bottom: 2px solid #ccc;
     box-sizing: border-box;
     overflow: hidden;
