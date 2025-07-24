@@ -12,7 +12,7 @@ body {
     display: flex;
     align-items: center; /* Center vertically */
     width: 100%;
-    background-color: #800000; /* Maroon background */
+    background-color: transparent; /* Maroon background */
     color: #FFFFFF; /* White text */
     box-sizing: border-box;
     padding: 10px 0;
