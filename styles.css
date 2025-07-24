@@ -44,7 +44,7 @@ body {
 /* Main Container */
 .container {
     display: flex;
-    min-height: calc(100vh - 150px); /* Adjust for top section and footer */
+    min-height: calc(100vh - 220px); /* Adjusted for top section (170px) + footer (~50px) */
 }
 
 /* Left Sidebar */
@@ -52,6 +52,7 @@ body {
     width: auto;
     background-color: #800000; /* Maroon background */
     color: #FFFFFF; /* White text */
+    margin-left: 15px;
     padding: 20px;
     box-sizing: border-box;
 }
