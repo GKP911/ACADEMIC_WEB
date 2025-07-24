@@ -9,21 +9,34 @@ body {
 
 /* Top Section */
 .top-section {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+
     background-color: #800000; /* Maroon background */
     color: #FFFFFF; /* White text */
-    text-align: center;
-    padding: 20px 0;
+
+    /*padding: 20px 0; */
+    border-bottom: 2px solid #ccc;
 }
 
-.top-section img.university-logo {
-    max-width: 150px;
-    height: auto;
-    margin-bottom: 10px;
+.university-logo {
+    height: 100px;
+    width: auto;
+    margin-right: 10px;
 }
 
 .top-section h1 {
     font-size: 2rem;
     margin: 0;
+}
+
+.top-banner {
+    flex: 1;
+    height: 100px;
+    object-fit: cover;
 }
 
 /* Main Container */
