@@ -23,7 +23,7 @@ body {
     height: 200px; /* Fixed height for logo */
     width: auto;
     margin-left: 15px;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
     object-fit: contain; /* Preserve aspect ratio, no cropping */
 }
 
