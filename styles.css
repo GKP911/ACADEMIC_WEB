@@ -30,7 +30,7 @@ body {
 .top-banner {
     flex: 1;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .top-section h1 {
