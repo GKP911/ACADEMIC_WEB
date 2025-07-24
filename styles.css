@@ -49,7 +49,7 @@ body {
 
 /* Left Sidebar */
 .sidebar {
-    width: 200px;
+    width: auto;
     background-color: #800000; /* Maroon background */
     color: #FFFFFF; /* White text */
     padding: 20px;
