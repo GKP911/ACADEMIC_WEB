@@ -20,7 +20,7 @@ body {
 }
 
 .university-logo {
-    height: 100px; /* Fixed height for logo */
+    height: 200px; /* Fixed height for logo */
     width: auto;
     margin-left: 15px;
     margin-right: 20px;
@@ -29,7 +29,7 @@ body {
 
 .top-banner {
     flex: 1;
-    height: 100px; /* Match logo height */
+    height: 200px; /* Match logo height */
     width: auto;
     object-fit: contain; /* Preserve aspect ratio, no cropping */
     max-width: 100%; /* Prevent overflow */
