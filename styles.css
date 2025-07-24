@@ -16,7 +16,7 @@ body {
     color: #FFFFFF; /* White text */
     box-sizing: border-box;
     padding: 10px 0;
-    height: 120px; /* Fixed height to prevent stretching */
+    height: 220px; /* Fixed height to prevent stretching */
 }
 
 .university-logo {
