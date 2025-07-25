@@ -172,7 +172,7 @@ body {
 
 /* Right Sidebar */
 .right-sidebar {
-    width: 250px;
+    width: 200px;
     padding: 1rem;
     background-color: #FFFFFF;
     border-left: 1px solid var(--medium-gray);
