@@ -258,7 +258,7 @@ footer {
 
 .footer-banner {
     width: 100%;
-    max-height: 180px; /* Adjust as needed */
+    max-height: auto; /* Adjust as needed */
     object-fit: cover;
     object-position: center;
     display: block;
