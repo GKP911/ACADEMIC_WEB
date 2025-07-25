@@ -97,7 +97,7 @@ body {
 /* Boxed Links */
 .sidebar a {
     background-color: var(--maroon); /* Solid maroon */
-    color: #000000; /* Force black text */
+    color: var(--text-light);
     padding: 0.8rem 1.5rem;
     margin: 0 0.5rem;
     border-radius: 4px;
