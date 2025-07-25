@@ -31,7 +31,7 @@ body {
 /* Header Section */
 .top-section {
     /* background: linear-gradient(to right, var(--dark-maroon), var(--maroon)); */
-    background: #333333;
+    background: #000000;
     color: #f5efef; /* Force black text */
     padding: 1.5rem 2rem;
     position: relative;
@@ -75,10 +75,12 @@ body {
     flex: 1;
 }
 
+/* ===== Minimalist Sidebar ===== */
 .sidebar {
     width: 250px;
     background: transparent;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .sidebar ul {
@@ -90,30 +92,40 @@ body {
 }
 
 .sidebar li {
-    margin: 0; /* Remove all gaps */
+    margin: 0;
 }
 
 .sidebar a {
-    color: var(--text-light); /* White text */
-    padding: 0.7rem 1.5rem; /* Reduced padding */
+    color: #ffffff; /* Pure white text */
+    padding: 0.75rem 1.5rem;
     display: flex;
     align-items: center;
     text-decoration: none;
     font-size: 1rem;
-    transition: background-color 0.2s ease;
+    font-weight: 400;
+    transition: all 0.2s ease;
 }
 
-/* Simple hover effect */
 .sidebar a:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Subtle dark overlay */
+    background-color: rgba(255, 255, 255, 0.05); /* Lighter hover */
+    color: #fff;
 }
 
 /* Icons */
 .sidebar i {
+    width: 1.25rem;
     margin-right: 1rem;
-    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
 }
 
+/* Active link indicator (optional) */
+.sidebar a.active {
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-left: 2px solid #fff;
+}
 
 /* Main Content */
 .content {
