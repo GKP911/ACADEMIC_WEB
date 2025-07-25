@@ -31,7 +31,7 @@ body {
 /* Header Section */
 .top-section {
     /* background: linear-gradient(to right, var(--dark-maroon), var(--maroon)); */
-    background: #f9e4e4;
+    background: transparent;
     color: #000000; /* Force black text */
     padding: 1.5rem 2rem;
     position: relative;
@@ -103,7 +103,7 @@ body {
 }
 
 .sidebar a {
-    background-color: #091ee0;
+    background-color: #01083f;
     color: var(--text-light);
     padding: 0.9rem 1.5rem;
     border-radius: 6px;
