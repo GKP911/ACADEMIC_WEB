@@ -78,7 +78,7 @@ body {
 /* ===== Minimalist Sidebar ===== */
 .sidebar {
     width: 250px;
-    background: transparent;
+    background: #800000;
     padding: 1rem 0;
     font-family: 'Poppins', sans-serif;
 }
