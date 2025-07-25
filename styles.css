@@ -26,11 +26,11 @@ body {
     color: #FFFFFF; /* White text */
     box-sizing: border-box;
     padding: 10px 0;
-    height: 220px; /* Fixed height to prevent stretching */
+    height: 120px; /* Fixed height to prevent stretching */
 }
 
 .university-logo {
-    height: 200px; /* Fixed height for logo */
+    height: 100px; /* Fixed height for logo */
     width: auto;
     margin-left: 15px;
     /*margin-right: 20px;*/
@@ -39,7 +39,7 @@ body {
 
 .top-banner {
     flex: 1;
-    height: 200px; /* Match logo height */
+    height: 100px; /* Match logo height */
     width: auto;
     object-fit: contain; /* Preserve aspect ratio, no cropping */
     max-width: 100%; /* Prevent overflow */
