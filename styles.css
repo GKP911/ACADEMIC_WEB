@@ -262,7 +262,7 @@ footer {
     object-fit: cover;
     object-position: center;
     display: block;
-    border-top: 3px solid transparent;
+    border-top: 3px solid #01083f;
 }
 
 /* Responsive Design */
