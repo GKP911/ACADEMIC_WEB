@@ -42,7 +42,7 @@ body {
     height: 100px; /* Match logo height */
     width: auto;
     object-fit: contain; /* Preserve aspect ratio, no cropping */
-    max-width: 100%; /* Prevent overflow */
+    max-width: contain; /* Prevent overflow */
 }
 
 /* Main Container */
