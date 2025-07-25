@@ -350,9 +350,6 @@ footer::before {
 @media (max-width: 768px) {
     footer {
         padding: 1rem;
-        font-size: 0.65rem;
-    }
-    .department-info {
-        line-height: 1.2;
+        font-size: 0.7rem;
     }
 }
