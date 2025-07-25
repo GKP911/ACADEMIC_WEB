@@ -172,8 +172,8 @@ body {
 
 /* Right Sidebar */
 .right-sidebar {
-    width: 300px;
-    padding: 2rem;
+    width: 250px;
+    padding: 1rem;
     background-color: #FFFFFF;
     border-left: 1px solid var(--medium-gray);
 }
@@ -185,13 +185,13 @@ body {
 
 .portrait {
     width: 100%;
-    border-radius: 8px;
-    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .contact-details {
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: var(--light-gray);
     border-radius: 8px;
 }
