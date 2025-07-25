@@ -251,9 +251,28 @@ body {
 
 /* Footer */
 footer {
-    padding: 0;
-    position: relative;
-    background: #1b1a1a;
+    background-color: var(--maroon);
+    color: var(--text-light);
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.department-info {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.contact-info {
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
 /* Responsive Design */
