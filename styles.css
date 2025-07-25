@@ -46,6 +46,7 @@ body {
     height: 80px;
     width: auto;
     margin-right: 2rem;
+    object-fit: contain;
 }
 
 .header-text h1 {
