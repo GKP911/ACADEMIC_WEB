@@ -215,7 +215,7 @@ body {
 }
 
 .contact-details h3 {
-    color: var(--maroon);
+    color: #000000;
     margin-top: 0;
     font-size: 1.4rem;
     padding-bottom: 0.8rem;
@@ -239,7 +239,7 @@ body {
 }
 
 .contact-details a {
-    color: var(--maroon);
+    color: #000000;
     text-decoration: none;
     transition: color 0.2s;
 }
