@@ -327,3 +327,13 @@ footer {
         margin-bottom: 1rem;
     }
 }
+
+@media (max-width: 768px) {
+    footer {
+        padding: 1rem;
+        font-size: 0.85rem;
+    }
+    .department-info {
+        line-height: 1.5;
+    }
+}
