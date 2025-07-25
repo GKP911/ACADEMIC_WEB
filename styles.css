@@ -37,13 +37,13 @@ body {
     object-fit: contain; /* Preserve aspect ratio, no cropping */
 }
 
-.top-banner {
+/*.top-banner {
     flex: 1;
     height: 100px; /* Match logo height */
-    width: auto;
+/*    width: auto;
     object-fit: contain; /* Preserve aspect ratio, no cropping */
-    max-width: contain; /* Prevent overflow */
-}
+/*    max-width: contain; /* Prevent overflow */
+/*}*/
 
 /* Main Container */
 .container {
