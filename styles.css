@@ -253,16 +253,7 @@ body {
 footer {
     padding: 0;
     position: relative;
-    background: transparent;
-}
-
-.footer-banner {
-    width: 100%;
-    max-height: auto; /* Adjust as needed */
-    object-fit: cover;
-    object-position: center;
-    display: block;
-    border-top: 3px solid #01083f;
+    background: #1b1a1a;
 }
 
 /* Responsive Design */
