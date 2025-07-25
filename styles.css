@@ -251,8 +251,8 @@ body {
 
 /* Footer */
 footer {
-    background-color: var(--maroon);
-    color: var(--text-light);
+    background-color: #000000;
+    color: #e0e0e0;
     padding: 1.5rem;
     text-align: center;
     font-size: 0.9rem;
