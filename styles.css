@@ -31,7 +31,7 @@ body {
 /* Header Section */
 .top-section {
     /* background: linear-gradient(to right, var(--dark-maroon), var(--maroon)); */
-    background: transparent;
+    background: #333333;
     color: #000000; /* Force black text */
     padding: 1.5rem 2rem;
     position: relative;
