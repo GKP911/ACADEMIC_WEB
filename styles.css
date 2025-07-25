@@ -182,7 +182,15 @@ body {
 }
 
 .contact-details p {
-    margin: 1rem 0;
+    font-size: 0.92rem;   /* Minimal reduction */
+    line-height: 1.35;    /* Balanced spacing */
+    margin: 0.45rem 0;    /* Slightly less gap */
+}
+
+.contact-details br {
+    content: " ";         /* Cleaner line breaks */
+    display: block;
+    margin-top: 0.2rem;   /* Small gap between lines */
 }
 
 .contact-details i {
