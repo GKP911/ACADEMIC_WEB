@@ -251,25 +251,25 @@ body {
 
 /* Footer */
 footer {
-    /* Solid fallback color */
+    /* Keep all background/texture settings */
     background-color: #1a1a1a;
-    
-    /* Image texture */
     background-image: url('texture.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
-    /* Existing styles (keep these exactly as-is) */
+    /* Reduced sizes */
+    padding: 1rem 1.5rem; /* ↓ from 1.5rem (top/bottom reduced) */
+    font-size: 0.85rem;   /* ↓ from 0.9rem */
+    line-height: 1.5;     /* ↓ from 1.6 */
+    
+    /* Keep existing */
     color: #e0e0e0;
-    padding: 1.5rem;
     text-align: center;
-    font-size: 0.9rem;
-    line-height: 1.6;
     position: relative;
 }
 
-/* Optional: Add dark overlay if texture is too light */
+/* Optional overlay remains same */
 footer::before {
     content: "";
     position: absolute;
@@ -277,15 +277,21 @@ footer::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.4); /* Adjust opacity (0.4 = 40% dark) */
+    background: rgba(0, 0, 0, 0.4);
 }
 
-/* Make sure content stays above overlay */
+/* Content adjustments for new size */
 .footer-content,
 .department-info,
 .contact-info {
     position: relative;
     z-index: 1;
+    margin: 0.3rem 0; /* Reduced from default */
+}
+
+.department-info {
+    padding-bottom: 0.3rem; /* ↓ from 0.5rem */
+    border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
 /* Responsive Design */
