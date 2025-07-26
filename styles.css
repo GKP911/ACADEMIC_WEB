@@ -131,14 +131,16 @@ body {
 /* Main Content */
 .content {
     flex: 1;
-    padding: 2rem;
+    padding: 1rem 0.5rem;
+    margin: 0 0.5rem;
     background-color: #FFFFFF;
 }
 
 .intro {
-    padding: 2rem;
-    border-radius: 8px;
+    padding: 1.5rem; /* Reduced from 2rem */
+    border-radius: 6px; /* Slightly smaller */
     background-color: var(--light-gray);
+    height: 100%; /* Fills available space */
 }
 
 .intro h2 {
@@ -163,7 +165,7 @@ body {
 }
 
 .research-highlights ul {
-    padding-left: 1.5rem;
+    padding-left: 1.0rem;
 }
 
 .research-highlights li {
@@ -354,5 +356,14 @@ footer::before {
     footer {
         padding: 1rem;
         font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        gap: 0.5rem; /* Space between columns */
+    }
+    .content {
+        margin: 0 0.25rem; /* Even tighter spacing */
     }
 }
