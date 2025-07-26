@@ -193,20 +193,21 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+.contact-details .designation {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--maroon);
+    margin: 0 0 0.8rem 0;
+    text-align: center;
+    border-bottom: 1px solid var(--medium-gray);
+    padding-bottom: 0.8rem;
+}
+
 .contact-details {
     padding: 1rem;
     background-color: var(--light-gray);
     border-radius: 8px;
     word-break: break-word; /* Allows text to wrap */
-}
-
-.contact-details h3 {
-    color: #000000;
-    margin-top: 0;
-    font-size: 1.1rem; /* Reduced from 1.4rem */
-    padding-bottom: 0.8rem;
-    overflow-wrap: break-word;
-    border-bottom: 1px solid var(--medium-gray);
 }
 
 /* ➜ Improved address paragraph styling */
