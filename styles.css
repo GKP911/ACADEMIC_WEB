@@ -176,6 +176,7 @@ body {
     padding: 1rem;
     background-color: #FFFFFF;
     border-left: 1px solid var(--medium-gray);
+    overflow: hidden; /* Prevents content from bleeding outside */
 }
 
 .profile-card {
@@ -194,30 +195,35 @@ body {
     padding: 1rem;
     background-color: var(--light-gray);
     border-radius: 8px;
+    word-break: break-word; /* Allows text to wrap */
 }
 
 .contact-details h3 {
     color: #000000;
     margin-top: 0;
-    font-size: 1.4rem;
+    font-size: 1.1rem; /* Reduced from 1.4rem */
     padding-bottom: 0.8rem;
+    overflow-wrap: break-word;
     border-bottom: 1px solid var(--medium-gray);
 }
 
 /* ➜ Improved address paragraph styling */
 .contact-details p.address {
-  font-size: 0.82rem;
-  line-height: 1.2;
-  display: flex;
+    font-size: 0.78rem; /* Slightly smaller */
+    line-height: 1.3;
+    display: block; /* Changed from flex */
+    white-space: normal; /* Allows text wrapping */
 }
 
 .contact-details p.address i {
-  margin-right: 0.5rem;
-  flex-shrink: 0;
+    margin-right: 0.5rem;
+    float: left; /* Icon alignment */
 }
 
 .contact-details p.address span {
-  white-space: normal;
+    display: block;
+    margin-left: 1.5rem; /* Space for icon */
+    white-space: normal; /* Changed from nowrap */
 }
 
 .contact-details a {
