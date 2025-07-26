@@ -216,6 +216,7 @@ body {
 }
 
 .contact-details p.address i {
+    font-size: 0.8rem;
     margin-right: 0.5rem;
     float: left; /* Icon alignment */
 }
