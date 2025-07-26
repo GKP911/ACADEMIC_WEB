@@ -217,7 +217,7 @@ body {
 }
 
 .contact-details p.address span {
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .contact-details a {
