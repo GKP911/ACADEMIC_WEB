@@ -221,6 +221,19 @@ body {
     float: left; /* Icon alignment */
 }
 
+/* Add this new rule to target ONLY the contact info paragraphs */
+.contact-details p:not(.address) {
+    font-size: 0.75rem;  /* Adjust this value as needed */
+    line-height: 1.3;
+    margin: 0.4rem 0;    /* Reduced vertical spacing */
+}
+
+/* Optional: Adjust icons to match */
+.contact-details p:not(.address) i {
+    font-size: 0.8rem;   /* Slightly smaller icons */
+    width: 1rem;         /* Fixed width for alignment */
+}
+
 .contact-details p.address span {
     display: block;
     margin-left: 1.5rem; /* Space for icon */
