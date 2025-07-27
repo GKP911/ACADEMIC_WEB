@@ -212,6 +212,11 @@ body {
     text-align: center;
 }
 
+.phd-info i {
+    margin-right: 0.4rem;
+    color: #000000; /* matches the maroon theme */
+}
+
 .contact-details {
     padding: 1rem;
     background-color: var(--light-gray);
