@@ -31,8 +31,11 @@ body {
 /* Header Section */
 .top-section {
     /* background: linear-gradient(to right, var(--dark-maroon), var(--maroon)); */
-    background: #000000;
+    background-color: #1a1a1a;
     background-image: url('texture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #f5efef; /* Force black text */
     padding: 1.5rem 2rem;
     position: relative;
