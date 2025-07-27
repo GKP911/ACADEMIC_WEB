@@ -204,6 +204,14 @@ body {
     padding-bottom: 0.8rem;
 }
 
+.phd-info {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #333333;
+    margin: -0.3rem 0 0.8rem;
+    text-align: center;
+}
+
 .contact-details {
     padding: 1rem;
     background-color: var(--light-gray);
