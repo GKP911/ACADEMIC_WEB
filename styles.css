@@ -208,6 +208,7 @@ body {
     font-size: 0.78rem;
     color: #000000;
     white-space: normal;
+    display: block;
 }
 
 .phd-info i {
