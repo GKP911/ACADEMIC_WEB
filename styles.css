@@ -32,7 +32,7 @@ body {
 .top-section {
     /* background: linear-gradient(to right, var(--dark-maroon), var(--maroon)); */
     background: #000000;
-    background-image: url("texture.jpg");
+    background-image: url('texture.jpg');
     color: #f5efef; /* Force black text */
     padding: 1.5rem 2rem;
     position: relative;
