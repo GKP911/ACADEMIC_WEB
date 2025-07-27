@@ -207,7 +207,7 @@ body {
 .phd-info {
     font-size: 0.78rem;
     color: #000000;
-    margin: 0.4rem 0;
+    white-space: normal;
 }
 
 .phd-info i {
