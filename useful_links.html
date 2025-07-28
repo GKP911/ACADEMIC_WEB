@@ -1,41 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Useful Links</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Useful Links – Prof. Puneet Jain</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <!-- Header / Navbar -->
-  <header class="top-section">
-    <nav class="navbar">
-      <ul>
-        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-        <li><a href="research.html"><i class="fas fa-flask"></i> Research Areas</a></li>
-        <li><a href="people.html"><i class="fas fa-users"></i> Team Members</a></li>
-        <li><a href="publications.html"><i class="fas fa-book"></i> Publications</a></li>
-        <li><a href="https://ph.iitr.ac.in/"><i class="fas fa-university"></i> Department</a></li>
-        <li><a href="useful-links.html"><i class="fas fa-link"></i> Useful Links</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div class="page-wrapper">
+        <!-- Header -->
+        <header class="top-section">
+            <div class="header-content">
+                <img src="iitr_logo.png" alt="IIT Roorkee Logo" class="university-logo">
+                <div class="header-text">
+                    <h1>Puneet Jain</h1>
+                    <p>Department of Physics, Indian Institute of Technology Roorkee</p>
+                </div>
+            </div>
+        </header>
 
-  <!-- Main Content -->
-  <main>
-    <h1>Useful Links</h1>
-    <ul>
-      <li><a href="https://inspirehep.net/">INSPIRE-HEP</a></li>
-      <li><a href="https://arxiv.org/">arXiv</a></li>
-      <li><a href="https://www.overleaf.com/">Overleaf</a></li>
-      <li><a href="https://orcid.org/">ORCID</a></li>
-      <!-- Add more as needed -->
-    </ul>
-  </main>
+        <!-- Sidebar + Content + Right Sidebar -->
+        <div class="container">
+            <!-- Sidebar -->
+            <nav class="sidebar">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="research.html"><i class="fas fa-flask"></i> Research Areas</a></li>
+                    <li><a href="people.html"><i class="fas fa-users"></i> Team Members</a></li>
+                    <li><a href="publications.html"><i class="fas fa-book"></i> Publications</a></li>
+                    <li><a href="https://ph.iitr.ac.in/"><i class="fas fa-university"></i> Department</a></li>
+                    <li><a href="useful-links.html" class="active"><i class="fas fa-link"></i> Useful Links</a></li>
+                </ul>
+            </nav>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Your Lab Name</p>
-  </footer>
+            <!-- Main Content -->
+            <main class="content">
+                <section class="intro">
+                    <h2>Useful Links</h2>
+                    <ul>
+                        <li><a href="https://inspirehep.net/" target="_blank">INSPIRE HEP</a></li>
+                        <li><a href="https://arxiv.org/" target="_blank">arXiv</a></li>
+                        <li><a href="https://www.overleaf.com/" target="_blank">Overleaf</a></li>
+                        <li><a href="https://orcid.org/" target="_blank">ORCID</a></li>
+                        <li><a href="https://scholar.google.com/" target="_blank">Google Scholar</a></li>
+                    </ul>
+                </section>
+            </main>
+
+            <!-- Right Sidebar -->
+            <aside class="right-sidebar">
+                <div class="profile-card">
+                    <img src="portrait.jpeg" alt="Prof. Puneet Jain" class="portrait">
+                    <div class="contact-details">
+                        <p class="designation">Assistant Professor</p>
+                        <p class="phd-info"><i class="fas fa-graduation-cap"></i><span>PhD - KEK Laboratory,<br> Japan</span></p>
+                        <p class="address"><i class="fas fa-map-marker-alt"></i><span>Room - 304, Department of Physics<br>IIT Roorkee<br>Roorkee, 247667, India</span></p>
+                        <p><i class="fas fa-phone"></i> (91) 1332 284787 </p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:puneet.jain@ph.iitr.ac.in">puneet.jain@ph.iitr.ac.in</a></p>
+                        <p><i class="fas fa-globe"></i> <a href="https://ph.iitr.ac.in/">www.ph.iitr.ac.in/</a></p>
+                        <p><i class="fab fa-orcid"></i> <a href="https://orcid.org/your-ORCID-id" target="_blank">ORCID Profile</a></p>
+                        <p><i class="fab fa-google"></i> <a href="https://scholar.google.com/citations?user=ID" target="_blank">Google Scholar Profile</a></p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <p class="department-info">
+                    Department of Physics | Indian Institute of Technology Roorkee<br>
+                    Roorkee, Uttarakhand 247667, India<br>
+                    Phone: (91) 1332-285248
+                </p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
