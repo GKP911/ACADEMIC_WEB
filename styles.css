@@ -73,6 +73,15 @@ body {
     opacity: 0.9;
 }
 
+.header-text {
+    flex: 1;
+}
+
+.right-logo {
+    margin-right: 0;
+    margin-left: auto;
+}
+
 /* Main Container */
 .container {
     display: flex;
@@ -389,3 +398,4 @@ footer::before {
         margin: 0 0.25rem; /* Even tighter spacing */
     }
 }
+
