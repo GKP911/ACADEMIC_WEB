@@ -1,108 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>People - Your Name</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
-<body> -->
-
-    <!-- Navigation -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Your Name</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
-                    <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="people.html">People</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
-
-    <!-- Header (Add Background Like Research Page) -->
-    <!-- <header class="bg-primary text-white text-center py-5">
-        <div class="container">
-            <h1>Our Research Team</h1>
-            <p class="lead">Meet the minds behind our research</p>
-        </div>
-    </header> -->
-
-    <!-- People Section -->
-    <!-- <div class="container my-5">
-        <h2 class="text-center mb-4">Team Members</h2>
-        <div class="row"> -->
-            <!-- Example Member -->
-            <!-- <div class="col-md-4 mb-4">
-                <div class="card shadow">
-                    <img src="profile1.jpg" class="card-img-top" alt="Dr. John Doe">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Dr. John Doe</h5>
-                        <p class="card-text"><strong>Research:</strong> Plasma Physics & Particle Acceleration</p>
-                        <a href="mailto:johndoe@example.com" class="btn btn-primary">Contact</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-4 mb-4">
-                <div class="card shadow">
-                    <img src="profile2.jpg" class="card-img-top" alt="Dr. Jane Doe">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Dr. Jane Doe</h5>
-                        <p class="card-text"><strong>Research:</strong> Computational Electromagnetics</p>
-                        <a href="mailto:jane@example.com" class="btn btn-primary">Contact</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-                <div class="card shadow">
-                    <img src="profile3.jpg" class="card-img-top" alt="Dr. Alice Smith">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Dr. Alice Smith</h5>
-                        <p class="card-text"><strong>Research:</strong> High-Energy Particle Simulations</p>
-                        <a href="mailto:alice@example.com" class="btn btn-primary">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- Footer -->
-    <!-- <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
-    </footer> -->
-
-    <!-- Bootstrap JS -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        let currentPath = window.location.pathname.split("/").pop(); // Get current page filename
-        if (currentPath === "") currentPath = "index.html"; // Default to home page
-
-        document.querySelectorAll(".nav-link").forEach(link => {
-            if (link.getAttribute("href") === currentPath) {
-                link.classList.add("active");
-            } else {
-                link.classList.remove("active");
-            }
-        });
-    });
-</script>
-
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -132,7 +27,7 @@
             <nav class="sidebar">
                 <ul>
                     <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="research.html"><i class="fas fa-flask"></i> Research & Projects</a></li>
+                    <li><a href="research.html"><i class="fas fa-flask"></i> Research &amp; Projects</a></li>
                     <li><a href="people.html" class="active"><i class="fas fa-users"></i> Team Members</a></li>
                     <li><a href="publications.html"><i class="fas fa-book"></i> Publications</a></li>
                     <li><a href="events.html"><i class="fas fa-ticket-alt"></i> Events Organized</a></li>
@@ -143,41 +38,69 @@
             <main class="content">
                 <section class="intro">
                     <h2>Team Members</h2>
-                    <p>Meet the researchers and students in our group.</p>
 
-                    <div class="team-grid">
+                    <!-- Current Members -->
+                    <h3>Current Members — PhD Students</h3>
+                    <ul class="pub-list">
+                        <li class="pub-item">
+                            <h4>Gopi Krishna</h4>
+                            <p class="pub-meta">Joined Spring 2024–25</p>
+                        </li>
+                        <li class="pub-item">
+                            <h4>Aarti Lathwal</h4>
+                            <p class="pub-meta">Joined Autumn 2024–25</p>
+                        </li>
+                        <li class="pub-item">
+                            <h4>P. S. Lakshmy</h4>
+                            <p class="pub-meta">Joined Autumn 2023–24</p>
+                        </li>
+                        <li class="pub-item">
+                            <h4>Manjeet Mor</h4>
+                            <p class="pub-meta">Joined Autumn 2019–20 | Expected graduation: 2026</p>
+                        </li>
+                    </ul>
 
-                        <div class="team-card">
-                            <img src="profile1.jpg" alt="Dr. John Doe">
-                            <div class="card-body">
-                                <h4>Dr. John Doe</h4>
-                                <p class="role">Postdoctoral Researcher</p>
-                                <p>Plasma Physics &amp; Particle Acceleration</p>
-                                <a href="mailto:johndoe@example.com"><i class="fas fa-envelope"></i> Contact</a>
-                            </div>
-                        </div>
+                    <!-- Past Members - PhD -->
+                    <h3>Past Members (Alumni) — PhD Graduates</h3>
+                    <ul class="pub-list">
+                        <li class="pub-item">
+                            <h4><a href="https://www.juet.ac.in/faculty/profile/manish-kumar-vishwakarma" target="_blank">Manish Kumar Vishwakarma</a></h4>
+                            <p class="pub-meta"><strong>Thesis:</strong> Investigation of Charge Carrier Dynamics and Dielectric Relaxation Behaviour in Metal Oxides</p>
+                            <p class="pub-doi">PhD awarded in 2024. Currently Assistant Professor at Jaypee University of Engineering and Technology, Guna, M.P., India.</p>
+                        </li>
+                    </ul>
 
-                        <div class="team-card">
-                            <img src="profile2.jpg" alt="Dr. Jane Doe">
-                            <div class="card-body">
-                                <h4>Dr. Jane Doe</h4>
-                                <p class="role">Postdoctoral Researcher</p>
-                                <p>Computational Electromagnetics</p>
-                                <a href="mailto:jane@example.com"><i class="fas fa-envelope"></i> Contact</a>
-                            </div>
-                        </div>
+                    <!-- Past Members - M.Sc. -->
+                    <h3>Past Members (Alumni) — M.Sc. Students</h3>
+                    <ul class="pub-list">
+                        <li class="pub-item">
+                            <h4>Rakesh Rasure</h4>
+                            <p class="pub-meta">2023–2024</p>
+                            <p class="pub-doi"><strong>Thesis:</strong> Thermal Analysis in Solid Oxide Fuel Cells for Enhanced Efficiency using COMSOL Multiphysics®</p>
+                        </li>
+                        <li class="pub-item">
+                            <h4>Alpesh Kumar</h4>
+                            <p class="pub-meta">2023–2024</p>
+                            <p class="pub-doi"><strong>Thesis:</strong> Analysis of Mass Transport Phenomenon in Solid Oxide Fuel Cells by COMSOL Multiphysics®</p>
+                        </li>
+                        <li class="pub-item">
+                            <h4>Ravi Sharma</h4>
+                            <p class="pub-meta">2016–2017</p>
+                            <p class="pub-doi"><strong>Thesis:</strong> Development of a Solenoid for ICE Spectrometer</p>
+                        </li>
+                        <li class="pub-item">
+                            <h4><a href="https://www.bnl.gov/staff/akhan1" target="_blank">Aamna Khan</a></h4>
+                            <p class="pub-meta">2015–2016</p>
+                            <p class="pub-doi"><strong>Thesis:</strong> Analysis of Multipacting in a Superconducting Pill Box Cavity</p>
+                            <p class="pub-doi">PhD in Accelerator Physics from Technical University of Darmstadt, Germany (2020). Currently Staff Scientist at National Synchrotron Light Source II, Brookhaven National Laboratory, USA.</p>
+                        </li>
+                        <li class="pub-item">
+                            <h4>Megh Anil Shah</h4>
+                            <p class="pub-meta">2014–2015</p>
+                            <p class="pub-doi"><strong>Thesis:</strong> Characterization of a 9-cell Superconducting Radio-Frequency Accelerating Cavity</p>
+                        </li>
+                    </ul>
 
-                        <div class="team-card">
-                            <img src="profile3.jpg" alt="Dr. Alice Smith">
-                            <div class="card-body">
-                                <h4>Dr. Alice Smith</h4>
-                                <p class="role">PhD Scholar</p>
-                                <p>High-Energy Particle Simulations</p>
-                                <a href="mailto:alice@example.com"><i class="fas fa-envelope"></i> Contact</a>
-                            </div>
-                        </div>
-
-                    </div>
                 </section>
             </main>
 
