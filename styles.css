@@ -420,3 +420,20 @@ footer::before {
     }
 }
 
+/* Compact member list */
+.pub-list.compact .pub-item {
+    padding: 0.6rem 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.pub-list.compact .pub-item h4 {
+    font-size: 0.88rem;
+    margin-bottom: 0.15rem;
+}
+
+.pub-list.compact .pub-item .pub-meta,
+.pub-list.compact .pub-item .pub-doi {
+    font-size: 0.76rem;
+    margin-bottom: 0.1rem;
+    line-height: 1.3;
+}
