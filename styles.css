@@ -480,3 +480,9 @@ footer::before {
     margin-bottom: 0.1rem;
     line-height: 1.3;
 }
+
+.pub-meta-inline {
+    font-weight: 300;
+    font-size: 0.78rem;
+    color: #aaa;
+}
