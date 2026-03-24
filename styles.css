@@ -421,9 +421,52 @@ footer::before {
 }
 
 /* Compact member list */
+.pub-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
+.pub-item {
+    padding: 0.7rem 1rem;
+    margin-bottom: 0.5rem;
+    background: #ffffff;
+    border: 1px solid var(--medium-gray);
+    border-radius: 6px;
+    border-left: 3px solid var(--maroon);
+}
+
+.pub-item h4 {
+    font-size: 0.92rem;
+    font-weight: 600;
+    margin: 0 0 0.2rem 0;
+}
+
+.pub-item h4 a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.pub-item h4 a:hover {
+    text-decoration: underline;
+}
+
+.pub-item .pub-meta {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0 0 0.1rem 0;
+}
+
+.pub-item .pub-doi {
+    font-size: 0.78rem;
+    color: #888;
+    margin: 0;
+}
+
+
 .pub-list.compact .pub-item {
-    padding: 0.6rem 1rem;
-    margin-bottom: 0.4rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.2rem;
 }
 
 .pub-list.compact .pub-item h4 {
